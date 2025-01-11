@@ -38,5 +38,33 @@ const user = [
 ];
 // console.log(user[0].name);
 
-console.log(tinderuser);
-console.log(tinderuser.hasOwnProperty("id"));
+// console.log(tinderuser);
+// console.log(tinderuser.hasOwnProperty("id"));
+
+// ********************* Object Desructuring *********************
+
+
+const course = {
+    courseName: "javascript",
+    coursePrice: 999,
+    courseInstrutor: "Falak"
+}
+
+const {courseInstrutor: instructor} = course;
+
+console.log(instructor);
+
+
+// ********************* JSON API *********************
+
+// {
+//     "name": "Sam",
+//     "age": 25,
+//     "city": "New York"
+// }
+
+[
+    {},
+    {},
+    {},
+]

@@ -27,4 +27,27 @@ function one(){
     two();
 }
 
-one();
+// one();
+
+if(true){
+    const username = "falak";
+    if(username === "falak"){
+        const website = " youtube";
+        // console.log(username + website);
+    }
+    // console.log(website);
+}
+// console.log(username);
+
+// ********************* interesting **********************
+
+addone(5);              // It will run properly and will not give any error
+function addone(num){
+    return num + 1;
+}
+
+
+addtwo(4);            // It will give error
+const addtwo = function(num){
+    return num + 2;
+}

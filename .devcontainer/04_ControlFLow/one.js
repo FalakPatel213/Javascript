@@ -1,6 +1,6 @@
 // IF
-const isUserLoggedIn = true;
-const temp = 40;
+// const isUserLoggedIn = true;
+// const temp = 40;
 
 
 // if(2 != 3){
@@ -26,18 +26,32 @@ const temp = 40;
 // }
 
 
-const balance = 1000;
+// const balance = 1000;
 
-if(balance < 500){
-    console.log("Less then 500");
+// if(balance < 500){
+//     console.log("Less then 500");
 
-}else if(balance < 750){
-    console.log("Less then 750");
+// }else if(balance < 750){
+//     console.log("Less then 750");
 
-}else if(balance < 900){
-    console.log("Less then 900");
+// }else if(balance < 900){
+//     console.log("Less then 900");
 
-}else{
-    console.log("Greater then 1000");
+// }else{
+//     console.log("Greater then 1000");
     
-}
+// }
+
+// const userLoggedIn = true;
+// const debitCard = true;
+
+// if(userLoggedIn && debitCard){
+//     console.log("User Logged In");
+// }
+
+// const LoggedInByGoogle = false;
+// const LoggedInByEmail = true;
+
+// if(LoggedInByEmail || LoggedInByGoogle){
+//     console.log("User Logged In");    
+// }

@@ -70,3 +70,24 @@ const myNums = [1, 2, 3];
 // const myTotal = myNums.reduce( (acc, curr) => acc + curr , 0);
 // console.log(myTotal);
 
+const shopingCart = [
+    {
+        course : "js",
+        price : 6999
+    },
+    {
+        course : "node",
+        price : 4999
+    },
+    {
+        course : "react",
+        price : 7999
+    },
+    {
+        course : "python",
+        price : 9999
+    }
+]
+
+const totalPrice = shopingCart.reduce( (acc, item) => acc + item.price, 0); 
+console.log(totalPrice);

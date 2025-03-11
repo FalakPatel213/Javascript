@@ -6,6 +6,7 @@ class User {
     logMe () {
         console.log(`USERNAME: ${this.username}`);
     }
+    
     static createId() {
         return 123;
     }
